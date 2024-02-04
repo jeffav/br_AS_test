@@ -8,7 +8,11 @@
   <BindingsSets />
   <EventBindingsSets />
   <Dialogs />
-  <Contents />
+  <Contents>
+    <Content refId="MainContent" />
+    <Content refId="TopContent" />
+    <Content refId="LeftContent" />
+  </Contents>
   <SnippetsSets />
   <VariablesSets />
   <ExpressionsSets />
