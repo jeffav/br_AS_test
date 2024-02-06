@@ -4,5 +4,7 @@
   <Objects>
     <Object Type="File" Description="Page description">Page.page</Object>
     <Object Type="File">MainContent.content</Object>
+    <Object Type="File">TopContent.content</Object>
+    <Object Type="File">LeftContent.content</Object>
   </Objects>
 </Package>

@@ -1,4 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="MainContent" height="500" width="660" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
-  <Widgets></Widgets>
+<Content id="MainContent" height="212" width="400" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="80" width="160" zIndex="0" text="Current temperature" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="80" left="120" zIndex="1" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="160" left="120" zIndex="2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="40" left="260" width="120" zIndex="3" text="Set temperature" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="80" left="20" zIndex="4" text="Value binding" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="160" left="20" zIndex="5" text="Node binding" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="80" left="280" zIndex="6" unit="{'metric':'CEL','imperial':'FAH','imperial-us':'FAH'}" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="160" left="280" zIndex="7" />
+  </Widgets>
 </Content>

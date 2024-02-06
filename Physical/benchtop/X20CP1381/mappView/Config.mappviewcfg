@@ -35,6 +35,7 @@
       <Property ID="defaultVisu" Value="Tutorial" />
       <Group ID="Widget">
         <Selector ID="renderingPolicy" Value="1" />
+        <Selector ID="securityPolicy" Value="1" />
       </Group>
     </Group>
   </Element>
